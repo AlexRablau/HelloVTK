@@ -1,6 +1,6 @@
 # Setup Visual Studio 2022 Project
 
-# Delete existing build folder
+# Remove existing build folder
 if (Test-Path -Path "./build") {
   Remove-Item "./build" -Recurse -Force
 }

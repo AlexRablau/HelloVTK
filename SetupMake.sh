@@ -11,5 +11,5 @@ cmake \
 -D CMAKE_TOOLCHAIN_FILE="$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake" \
 -B build \
 -A x64 \
--G "Xcode" \
+-G "Unix Makefiles" \
 -S .
