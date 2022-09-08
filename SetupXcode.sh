@@ -10,6 +10,5 @@ mkdir build
 cmake \
 -D CMAKE_TOOLCHAIN_FILE="$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake" \
 -B build \
--A x64 \
 -G "Xcode" \
 -S .
